@@ -117,7 +117,7 @@ p{
   .breakpoint {
     display: none;
 }
-/*
+
   footer{
 
     position: fixed;
@@ -131,7 +131,7 @@ p{
   footer p{
     text-align: center;
     text-decoration: underline;
-  }*/
+  }
   @media screen and (max-width: 600px){
 
     footer{

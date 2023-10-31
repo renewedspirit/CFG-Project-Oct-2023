@@ -124,6 +124,7 @@ p{
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 100px;
     border: rgb(123, 63, 0) 7px dotted;
     background-color: lightpink;
     
@@ -140,6 +141,7 @@ p{
         left: 0;
         bottom: 0;
         width: 100%;
+        height: 100px;
         border: rgb(123, 63, 0) 7px dotted;
         background-color: lightpink;
         

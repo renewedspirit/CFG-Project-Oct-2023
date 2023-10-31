@@ -1,5 +1,6 @@
 body{
     background-color: lightblue;
+    box-sizing: border-box;
 }
 /*
 .material-symbols-outlined {
@@ -12,6 +13,9 @@ body{
 }*/
 
 nav {
+    position: fixed;
+    left: 0;
+    width: 100%;
     background-color: lightpink;
     height: 100px;
     border: rgb(123, 63, 0) 7px dotted;
@@ -28,6 +32,7 @@ nav li {
   
 }
 nav h1 {
+
     text-align: center;
     color: rgb(123, 63, 0);
     font-size: 40px;
@@ -97,8 +102,9 @@ p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .carousel-inner > .carousel-item > img {
+    margin-top: 35px;
     width: 240px;
-    height:340px;
+    height: 340px;
     background-color: lightblue;
   }
   
@@ -108,16 +114,42 @@ p{
     border-color:rgb(123, 63, 0);
       
   }
-  
-
+  .breakpoint {
+    display: none;
+}
+/*
   footer{
-    position: sticky;
-    background-color: lightpink;
-    height: 100px;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     border: rgb(123, 63, 0) 7px dotted;
+    background-color: lightpink;
     
   }
   footer p{
     text-align: center;
     text-decoration: underline;
+  }*/
+  @media screen and (max-width: 600px){
+
+    footer{
+
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border: rgb(123, 63, 0) 7px dotted;
+        background-color: lightpink;
+        
+      }
+      footer p{
+        text-align: center;
+        text-decoration: underline;
+      }
+
+      .mobile-size{
+        font-size: 32px;
+      }
   }

@@ -155,4 +155,15 @@ footer{
         font-size: 32px;
       }
   }
+ @media screen and (max-width: 600px){
 
+nav {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: lightpink;
+    height: 100px;
+    border: rgb(123, 63, 0) 7px dotted;
+    padding-bottom: 20px;
+}
+ }
